@@ -47,8 +47,6 @@ def plot_learning_curve(train_sizes, train_scores, test_scores, **kwargs):
     plt.plot(train_sizes, test_scores_mean, 'o-', color=test_color,
              label=test_label)
 
-    plt.legend(loc='best')
-
     return plt
 
 
